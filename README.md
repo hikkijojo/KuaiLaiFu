@@ -1,7 +1,6 @@
 # KuaiLaiFu 大陸 快樂付第三方金流 SDK
 
 
-
 ## 无卡支付 使用範例
     $obj = new KuaiLaiFuPayGeteWay();
     print_r( $obj->getKuaiLaiFuPayResult( '20.00', 'pay2019032700001', 'testRMB20', '可為空' ) );
@@ -9,8 +8,8 @@
 
 
 ## 无卡支付查询 使用範例
-  $obj = new KuaiLaiFuPayQuery();
-  print_r( $obj->getKuaiLaiFuPayQuery( '2019032700001' ) );
+    $obj = new KuaiLaiFuPayQuery();
+    print_r( $obj->getKuaiLaiFuPayQuery( '2019032700001' ) );
 
 
 ## 代付
