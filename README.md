@@ -14,18 +14,18 @@
 
 
 ## 代付
-  $obj = new KuaiLaiFuProxyPay();
-  $obj->bankAccType = 'PRIVATE_DEBIT_ACCOUNT';
-  $obj->bankAccName = '許功蓋';
-  $obj->bankAccNo = '1234567890123456';
-  $obj->bankBranchNo = '123456789012';
-  $obj->bankCode = 'SPDB';
-  $obj->bankName = '上海浦东发展银行XXXXXX支行';
-  $obj->province = 'XX省';
-  $obj->city = 'XX市';
-  $obj->amount = '1.00';
-  $obj->proxyPayNo = 'proxypay201903280001';
-  print_r( $obj->getKuaiLaiFuProxyPayResult() );
+    $obj = new KuaiLaiFuProxyPay();
+    $obj->bankAccType = 'PRIVATE_DEBIT_ACCOUNT';
+    $obj->bankAccName = '許功蓋';
+    $obj->bankAccNo = '1234567890123456';
+    $obj->bankBranchNo = '123456789012';
+    $obj->bankCode = 'SPDB';
+    $obj->bankName = '上海浦东发展银行XXXXXX支行';
+    $obj->province = 'XX省';
+    $obj->city = 'XX市';
+    $obj->amount = '1.00';
+    $obj->proxyPayNo = 'proxypay201903280001';
+    print_r( $obj->getKuaiLaiFuProxyPayResult() );
 
 
 ## 代付查询
