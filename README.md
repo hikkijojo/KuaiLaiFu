@@ -1,13 +1,13 @@
-# KuaiLaiFu 大陸 快樂付第三方金流 SDK
+# KuaiLaiFu 大陸 快來付第三方金流 SDK
 
 
-## 无卡支付 使用範例
+## 無卡支付 使用範例
     $obj = new KuaiLaiFuPayGeteWay();
     print_r( $obj->getKuaiLaiFuPayResult( '20.00', 'pay2019032700001', 'testRMB20', '可為空' ) );
 
 
 
-## 无卡支付查询 使用範例
+## 無卡支付查詢 使用範例
     $obj = new KuaiLaiFuPayQuery();
     print_r( $obj->getKuaiLaiFuPayQuery( '2019032700001' ) );
 
@@ -27,11 +27,11 @@
     print_r( $obj->getKuaiLaiFuProxyPayResult() );
 
 
-## 代付查询
+## 代付查詢
     $obj = new KuaiLaiFuProxyQuery();
     print_r( $obj->getKuaiLaiFuProxyQuery( 'proxypay201903270001' ) );
 
 
-## 余额查询
+## 餘額查詢
     $obj = new KuaiLaiFuQueryBalance();
     print_r( $obj->getKuaiLaiFuBalance() );
